@@ -1,0 +1,737 @@
+{
+  "quizTitle": "English Practice Test",
+  "description": "This test contains practice questions for English language proficiency.",
+  "totalQuestions": 31,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": 1,
+      "type": "matching",
+      "question": "Match the sentence halves to form full sentences. An example (0) has been done for you.",
+      "options": [
+        "Everyone is going to work, so there",
+        "I think some of us",
+        "All of my friends",
+        "We are going to",
+        "The secretary's",
+        "We're taking the bus home when the film"
+      ],
+      "matchingOptions": [
+        "won't be anyone here.",
+        "will have lunch in the park, but I'm not sure.",
+        "are going to the party, except Chris.",
+        "help the children with their homework.",
+        "going to be in the office all week.",
+        "finishes, so you can come with us."
+      ],
+      "correctAnswers": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": 2,
+      "type": "select_correct_word",
+      "question": "Select the correct word(s) in italics in each sentence. An example (0) has been done for you.",
+      "example": "0. It's sunny, but I can see grey clouds, so it will/might rain.",
+      "exampleAnswer": "might",
+      "sentences": [
+        "I'm not going to/may see her tonight because I'm ill.",
+        "I will/won't definitely be there after 8 pm.",
+        "Her boss has allowed her to leave early because she will/is going to the dentist.",
+        "Mr Smith works hard and I think he is going/could to become the boss one day.",
+        "My cousin thinks children might not/aren't study languages in the future."
+      ],
+      "options": [
+        ["not going to", "may"],
+        ["will", "won't"],
+        ["will", "is going"],
+        ["is going", "could"],
+        ["might not", "aren't"]
+      ],
+      "correctAnswers": [0, 0, 1, 1, 0]
+    },
+    {
+      "id": 3,
+      "type": "sentence_ordering",
+      "question": "Put the words into the correct order to form sentences. An example (0) has been done for you.",
+      "example": "0. taking / he / the / today / exam / isn't / .",
+      "exampleAnswer": "He isn't taking the exam today.",
+      "sentences": [
+        "it / going / is / rain / to / probably / .",
+        "the / definitely / get / they / job / will / .",
+        "them / someone / going / is / help / to / .",
+        "they / later / us / are / than / arriving / .",
+        "know / Friday / might / we / not / until / ."
+      ],
+      "correctAnswers": [
+        "It is probably going to rain.",
+        "They will definitely get the job.",
+        "Someone is going to help them.",
+        "They are arriving later than us.",
+        "We might not know until Friday."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "error_correction",
+      "question": "For each sentence, find the error and correct it. If there is no error, put a tick (✓) next to the sentence. An example (0) has been done for you.",
+      "example": "0. Isn't he move house next month?",
+      "exampleAnswer": "Isn't he moving house next month?",
+      "sentences": [
+        "I don't think we go to the party tomorrow evening.",
+        "I'm not sure if he might go out with his brother tonight.",
+        "They probably will win.",
+        "Her idea will not probably work.",
+        "Her aunt is going to get a new car next week.",
+        "Do you think he'll be able to make it?",
+        "When will you might know what time you're arriving?",
+        "There isn't going to be a party for the children.",
+        "I going to see my sister at the weekend.",
+        "We are may watch the World Cup final if there's time."
+      ],
+      "corrections": [
+        "I don't think we will go to the party tomorrow evening.",
+        "I'm not sure if he will go out with his brother tonight.",
+        "They will probably win.",
+        "Her idea will probably not work.",
+        null,
+        null,
+        "When will you know what time you're arriving?",
+        null,
+        "I'm going to see my sister at the weekend.",
+        "We may watch the World Cup final if there's time."
+      ],
+      "hasNoError": [false, false, false, false, true, true, false, true, false, false]
+    },
+    {
+      "id": 5,
+      "type": "matching",
+      "question": "Match the words on the left with their meanings on the right. An example (0) has been done for you.",
+      "options": [
+        "tend",
+        "misplace",
+        "lost",
+        "quit",
+        "genius",
+        "underpaid"
+      ],
+      "matchingOptions": [
+        "to usually do a particular thing",
+        "to put something in the wrong place and lose it",
+        "when you don't follow what someone is saying.",
+        "to stop a habit forever",
+        "this is a person of exceptional intelligence",
+        "when you earn less than you should do"
+      ],
+      "correctAnswers": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": 6,
+      "type": "sentence_rewrite",
+      "question": "Rewrite each sentence using the word in bold so it has the same meaning as the first sentence. Do not change the word in bold. An example (0) has been done for you.",
+      "example": {
+        "original": "They decided to rebuild the factory.",
+        "partial": "They decided to ___________________ (BUILD).",
+        "answer": "build the factory again"
+      },
+      "sentences": [
+        {
+          "original": "I need to reduce how much chocolate I eat.",
+          "partial": "I need to ___________________ (DOWN) how much chocolate I eat.",
+          "answer": "cut down on"
+        },
+        {
+          "original": "I don't usually keep my resolutions after January.",
+          "partial": "I usually ___________________ (BREAK) my resolutions by",
+          "answer": "break my resolutions by"
+        },
+        {
+          "original": "When he had achieved his goal, he decided to plan another.",
+          "partial": "When he had ___________________ (TARGET), he decided to plan another.",
+          "answer": "reached his target"
+        },
+        {
+          "original": "He decided not to eat meat anymore.",
+          "partial": "He decided to ___________________ (QUIT) eating meat.",
+          "answer": "quit eating meat"
+        },
+        {
+          "original": "She didn't keep her resolution this year but will try again next year.",
+          "partial": "She didn't ___________________ (STICK) to her resolution this year but will try again next year.",
+          "answer": "stick to her resolution"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "error_correction",
+      "question": "For each sentence (1–5), find the error and correct it. If there is no error, put a tick (✓) next to the sentence. An example (0) has been done for you.",
+      "example": "0. Who did use to help you when you were younger?",
+      "exampleAnswer": "Who used to help you when you were younger?",
+      "sentences": [
+        "They didn't use to have two cars.",
+        "I use to loved playing with my cousins.",
+        "It always would rain a lot in the spring.",
+        "Where were they used to play tennis?",
+        "He would always visit his grandmother."
+      ],
+      "corrections": [
+        null,
+        "I used to love playing with my cousins.",
+        "It would always rain a lot in the spring.",
+        "Where did they use to play tennis?",
+        null
+      ],
+      "hasNoError": [true, false, false, false, true]
+    },
+    {
+      "id": 8,
+      "type": "select_correct_word",
+      "question": "Select the correct word(s) in italics in each sentence. An example (0) has been done for you.",
+      "example": "0. When he was a student, he used to/would be very hard-working.",
+      "exampleAnswer": "used to",
+      "sentences": [
+        "I didn't use to go/go swimming last weekend.",
+        "When they were younger, they were taking/would take the bus home from school every day.",
+        "I didn't used/use to be able to play the guitar.",
+        "They replaced/would replace their car last month.",
+        "Where would/did you use to play as a child?"
+      ],
+      "options": [
+        ["use to go", "go"],
+        ["were taking", "would take"],
+        ["used", "use"],
+        ["replaced", "would replace"],
+        ["would", "did"]
+      ],
+      "correctAnswers": [1, 1, 1, 0, 1]
+    },
+    {
+      "id": 9,
+      "type": "sentence_rewrite",
+      "question": "Complete the sentences using the passive so it has the same meaning as the active sentence. An example (0) has been done for you.",
+      "example": {
+        "original": "The presenter interviews famous people every day.",
+        "partial": "Famous people ____________ every day by the presenter.",
+        "answer": "are interviewed"
+      },
+      "sentences": [
+        {
+          "original": "The man will explain everything to the police.",
+          "partial": "Everything ____________ to the police by the man.",
+          "answer": "will be explained"
+        },
+        {
+          "original": "The teacher is going to give them lots of homework.",
+          "partial": "They are ____________ a lot of homework by the teacher.",
+          "answer": "going to be given"
+        },
+        {
+          "original": "The shop assistant gave her the wrong change.",
+          "partial": "She ____________ the wrong change by the shop assistant.",
+          "answer": "was given"
+        },
+        {
+          "original": "My neighbour often cuts my grass.",
+          "partial": "My grass ____________ by my neighbour.",
+          "answer": "is often cut"
+        },
+        {
+          "original": "The students did a lot of work.",
+          "partial": "A lot of work ____________ by the students.",
+          "answer": "was done"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "fill_in_blank",
+      "question": "Complete the sentences with one word. An example (0) has been done for you.",
+      "example": "0. When I was a child, my friends ______ visit our home.",
+      "exampleAnswer": "would",
+      "sentences": [
+        "I _______ been givena large sum of money by my boss.",
+        "Where _______ he use to work before he came here?",
+        "I _______ go to the same place on holiday every year as a child.",
+        "She loves fish now, but she _______ use to like it when she was little.",
+        "They are _______ shown around the factory at the moment.",
+        "What sport _______ your father play with you when you were younger?",
+        "Was he at work when he _______ arrested?",
+        "We didn't use _______ to drink coffee until we went to Brazil.",
+        "When will he _______ given a promotion?",
+        "The goods _______ delivered to the office on Mondays."
+      ],
+      "answers": [
+        "have",
+        "did",
+        "would",
+        "didn't",
+        "being",
+        "did",
+        "was",
+        "to",
+        "be",
+        "are"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "sentence_ordering",
+      "question": "Put the words into the correct order to form sentences. An example (0) has been done for you.",
+      "example": "0. would / child / a / were / lunch / when / you / you / where / have / .",
+      "exampleAnswer": "Where would you have lunch when you were a child?",
+      "sentences": [
+        "when / use / to / what / to / listen / you / you / were / did / younger / music / ?",
+        "play / would / in / the / fields / when / time / we / had / we / .",
+        "new / week / used / laptop / last / the / nobody / .",
+        "told / haven't / about / project / next / the / I / been / .",
+        "a / were / money / how / you / child / pocket / given / as / much / ."
+      ],
+      "correctAnswers": [
+        "What music did you use to listen to when you were younger?",
+        "We would play in the fields when we had time.",
+        "Nobody used the new laptop last week.",
+        "I haven't been told about the next project.",
+        "How much pocket money were you given as a child?"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "matching",
+      "question": "Match the sentence halves to form full sentences. An example (0) has been done for you.",
+      "options": [
+        "I didn't use",
+        "Everyone has been",
+        "We didn't use",
+        "We would never",
+        "We are not allowed",
+        "Everyone is"
+      ],
+      "matchingOptions": [
+        "to wear glasses, but now I do.",
+        "told about the wedding.",
+        "to argue when we were children.",
+        "play in the school holidays.",
+        "to park on the road this week",
+        "being rewarded for their hard work."
+      ],
+      "correctAnswers": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": 13,
+      "type": "word_box_fill",
+      "question": "Complete the sentences using the words in the box. There is an extra word you do not need. An example (0) has been done for you.",
+      "wordBox": ["break", "cut", "keep", "make", "quit", "reach", "stick"],
+      "example": "He managed to ______ smoking before his 30th birthday.",
+      "exampleAnswer": "quit",
+      "sentences": [
+        "Our family needs to ______ down on sugar and coffee.",
+        "It's easy to ______ resolutions in December, but difficult to ______ them!",
+        "I tried very hard not to ______ my resolution, but I failed.",
+        "If I ______ to my plan, I should lose 2 kg by August.",
+        "I don't think I will ______ my target before next week."
+      ],
+      "answers": [
+        "cut",
+        ["make", "keep"],
+        "break",
+        "stick",
+        "reach"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "select_correct_word",
+      "question": "Select the correct word(s) in italics in each sentence. An example (0) has been done for you.",
+      "example": "0. I often misplace/misunderstand things when I stay in a hotel.",
+      "exampleAnswer": "misplace",
+      "sentences": [
+        "We prefer working at home because we unlike/dislike commuting to the office.",
+        "He increased the salaries of the staff he thought were overpaid/underpaid.",
+        "Nobody can replace/rethink the secretary because she was unique.",
+        "We sold the exercise bike because it was underused/overused and nobody wanted it anymore.",
+        "Some people would misunderstand/disagree with the tax system."
+      ],
+      "options": [
+        ["unlike", "dislike"],
+        ["overpaid", "underpaid"],
+        ["replace", "rethink"],
+        ["underused", "overused"],
+        ["misunderstand", "disagree"]
+      ],
+      "correctAnswers": [1, 1, 0, 0, 1]
+    },
+    {
+      "id": 15,
+      "type": "word_box_fill",
+      "question": "Complete the sentences using the words in the box. An example (0) has been done for you.",
+      "wordBox": ["are", "definitely", "going", "is", "will", "won't"],
+      "example": "He is buying a new laptop.",
+      "exampleAnswer": "is",
+      "sentences": [
+        "Where ______ they going on holiday?",
+        "How many exams do you think she ______ pass?",
+        "What ______ they ______ to study at school today?",
+        "I am ______ ______ to see the new film.",
+        "We ______ see you before lunch, so have a great time at the restaurant."
+      ],
+      "answers": [
+        "are",
+        "will",
+        "going",
+        "definitely",
+        "won't"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "error_correction",
+      "question": "For each sentence (1–5), find the error and correct it. If there is no error, put a tick (✓) next to the sentence. An example (0) has been done for you.",
+      "example": "0. His parents are help him to find a job.",
+      "exampleAnswer": "His parents are helping him find a job.",
+      "sentences": [
+        "Three students are seeing the headmaster today.",
+        "They probably will manage the work.",
+        "I'm not sure, but I think it rains next weekend.",
+        "He's going give me his number.",
+        "He probably won't be able to do the housework."
+      ],
+      "corrections": [
+        null,
+        "They will probably manage the work.",
+        "I'm not sure, but I think it'll rain next weekend.",
+        "He's going to give me his number.",
+        null
+      ],
+      "hasNoError": [true, false, false, false, true]
+    },
+    {
+      "id": 17,
+      "type": "matching",
+      "question": "Match the sentence halves to form full sentences. An example (0) has been done for you.",
+      "options": [
+        "have creative thinking skills",
+        "be reliable",
+        "have good time management",
+        "have good communication skills",
+        "work well under pressure",
+        "have good people skills"
+      ],
+      "matchingOptions": [
+        "be able to think of unusual things.",
+        "you can depend on this type of person",
+        "you can organise when to do things well",
+        "you know how to get along with people well",
+        "others can understand you easily",
+        "you don't get irritated when you are busy"
+      ],
+      "correctAnswers": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": 18,
+      "type": "select_correct_word",
+      "question": "Select the correct word(s) in italics in each sentence. An example (0) has been done for you.",
+      "example": "0. Most people encourage their children work/to work hard.",
+      "exampleAnswer": "to work",
+      "sentences": [
+        "Our company persuades/allows us to take holidays when we want.",
+        "I encouraged/made him to help her.",
+        "She wanted/let me to shut the office earlier.",
+        "I advised him not to take/to not take too much luggage.",
+        "We don't encourage/let people bring pets to work."
+      ],
+      "options": [
+        ["persuades", "allows"],
+        ["encouraged", "made"],
+        ["wanted", "let"],
+        ["not to take", "to not take"],
+        ["encourage", "let"]
+      ],
+      "correctAnswers": [1, 1, 0, 0, 1]
+    },
+    {
+      "id": 19,
+      "type": "word_box_fill",
+      "question": "Complete the sentences using the words in the box. There is an extra word you do not need. An example (0) has been done for you.",
+      "wordBox": ["adapt", "attract", "build", "do", "launch", "make", "run"],
+      "example": "We need to launch the campaign before the end of the year.",
+      "exampleAnswer": "launch",
+      "sentences": [
+        "We know how to ______ business overseas.",
+        "The company didn't ______ much money last year.",
+        "You ______ your reputation by being competitive.",
+        "Good advertising will ______ more customers.",
+        "He has ______ his own company for ten years."
+      ],
+      "answers": [
+        "do",
+        "make",
+        "build",
+        "attract",
+        "run"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "error_correction",
+      "question": "For each sentence (1–10), find the error and correct it. If there is no error, put a tick (✓) next to the sentence. An example (0) has been done for you.",
+      "example": "0. I'd like to encourage you to investing in the property.",
+      "exampleAnswer": "I'd like to encourage you to invest in the property.",
+      "sentences": [
+        "The president works well on pressure.",
+        "There is no point in doing business if you don't want to do money.",
+        "He persuaded us not to launch the product this year.",
+        "We don't allow people to bringing their own food to the restaurant.",
+        "They built their brand by investing in local employees.",
+        "People trust him and he's sociable, so you could say he hasn't got good people skills.",
+        "Being reliable is a great quality to have.",
+        "He has good digital skills, but poor time management skills.",
+        "If we don't make a campaign again this year, we should close the business.",
+        "He thanked his staff for their good work team."
+      ],
+      "corrections": [
+        "The president works well under pressure.",
+        "There is no point in doing business if you don't want to make money.",
+        null,
+        "We don't allow people to bring their own food into the restaurant.",
+        null,
+        "People trust him and he's sociable, so you could say he's got good people skills.",
+        null,
+        "He has good digital technology skills, but poor time management skills.",
+        "If we don't make a profit again this year, we should close the business.",
+        "He thanked the staff for their good team work."
+      ],
+      "hasNoError": [false, false, true, false, true, false, true, false, false, false]
+    },
+    {
+      "id": 21,
+      "type": "sentence_rewrite",
+      "question": "Rewrite each sentence using the word in bold so it has the same meaning as the first sentence. Do not change the word in bold. An example (0) has been done for you.",
+      "example": {
+        "original": "New customers are interested in the product because of the advertising.",
+        "partial": "The advertising (ATTRACTS) to the product.",
+        "answer": "attracts new customers"
+      },
+      "sentences": [
+        {
+          "original": "She told him it would be a good idea to get a car.",
+          "partial": "She ___________________ (ADVISED) him to get a car.",
+          "answer": "advised him"
+        },
+        {
+          "original": "He can use a computer very well.",
+          "partial": "He has good ___________________ (DIGITAL TECHNOLOGY).",
+          "answer": "digital technology skills"
+        },
+        {
+          "original": "He doesn't panic when he has deadlines.",
+          "partial": "He ___________________ (UNDER) pressure.",
+          "answer": "works well under"
+        },
+        {
+          "original": "The boss didn't allow them to take the day off.",
+          "partial": "The boss ___________________ (LET) them take the day off.",
+          "answer": "didn't let them"
+        },
+        {
+          "original": "Everyone knows it's a good company.",
+          "partial": "The company has ___________________ (REPUTATION).",
+          "answer": "a good reputation"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "type": "word_box_fill",
+      "audioscript": "Stefanos: Congratulations on your new job, Julie! I bet you're pleased you've got the job in the city, aren't you?\nJulie: Yes, I am. I applied to loads of companies, and it did take a while, but I always knew something would come up. I\ndidn't expect a job to come up straight away as I haven't got loads of experience.\nStefanos: Have you always wanted to be an engineer?\nJulie: No! I used to want to be a pilot, like a lot of people, I guess. I remember telling my family that I wanted to fly to every\ncountry in the world. My mum would encourage me to look at maps of the world, and she even bought me a globe, you\nknow, one of those big ball things with the world map on it. I always thought I would work abroad, and my aunt would tell\nme she would visit me if I did. What about you? Did you use to think you'd be a mechanic?\nStefanos: Yes, I've always wanted to work with cars and have my own business. I don't have very good digital technology\nskills, as you know, so I never thought I could work in an office.\nJulie: Do you think you'll have your own business in the future?\nStefanos: Well, I'm working on it at the moment – I'm looking for a business partner, you know, someone who will start the\nbusiness with me.\nJulie: So, what next then? I mean, is it hard to start a business?\nStefanos: It's not easy, but I think I can do it. Attracting investors is the difficult thing, but I've built a good reputation in\nmy current job and hopefully that will be helpful. The main thing is to start making a profit as soon as possible.\nJulie: Well, when you start your new business, I'll start bringing my car to you. My brother used to try and fix it, but he\nwould often just create more problems without fixing anything. He used to want to be a mechanic, but he finally realised\nhe won't make a very efficient one.\nStefanos: Anyone can do it …\nJulie: Yeah, well not my brother. Anyway, you have an excellent reputation as a mechanic, so I'm sure you'll be really\npopular and have loads of customers! OK Stefanos, it's great to catch up with you. All the best with your new business!\nStefanos: Cheers, Julie. You take care, too.",
+      "question": "Listen to Stefanos and Julie talking about their jobs and complete the sentences (1–5). An example (0) has been done for you. Skills Test 4-5 Audio 1",
+      "wordBox": ["mum", "digital technology", "investors", "efficient", "customers"],
+      "example": "Julie wanted ______ as a kid.",
+      "exampleAnswer": "to be a pilot",
+      "sentences": [
+        "Julie's ______ helped her learn about the world.",
+        "Stefanos doesn't have the ______ skills for an office job.",
+        "Stefanos says it is hard to find ______ when starting a company.",
+        "Julie's brother is not ______ enough to be a mechanic.",
+        "Julie thinks Stefanos will have plenty of ______."
+      ],
+      "answers": [
+        "mum",
+        "digital technology",
+        "investors",
+        "efficient",
+        "customers"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "word_box_fill",
+      "question": "Match the extracts with the statements below. Fill in the blanks with the correct letter (A-G).",
+      "wordBox": ["A", "B", "C", "D", "E", "F", "G"],
+      "example": "Example: Extract 0 [____]",
+      "exampleAnswer": "D",
+      "sentences": [
+        "Extract 1 [____]",
+        "Extract 2 [____]",
+        "Extract 3 [____]",
+        "Extract 4 [____]",
+        "Extract 5 [____] and [____]"
+      ],
+      "options": [
+        "A is planning to move soon.",
+        "B has a firm plan for the next year.",
+        "C is hoping to be promoted next month.",
+        "D works in a noisy neighbourhood.",
+        "E would like to do something they previously did.",
+        "F lives in a noisy area.",
+        "G is waiting to hear about two things."
+      ],
+      "extracts": [
+        "Extract 1\nMan: How do you see your job in the future?\nWoman: I don't know really, it's not something I've thought about. To be honest, I don't think I will still be in the same job.\nI'd like to have a job using my creative thinking skills, as I'm good at thinking up new things. What about you?\nMan: I think I'll talk to my boss about becoming the head of my team. I used to do this in my old job and it's something I\nthought I was good at, as I have quite good people skills.",
+        "Extract 2\nWoman: Do you see yourself living in the same flat in, say, five years?\nMan: I do, actually. I've moved so much since I left university, I just want to stay where I am. What about you? Are you\nhappy where you are?\nWoman: To be honest, no. I used to live in a really quiet neighbourhood, but now it's become quite popular and loud. I\noften have to go to the lady next door's house, saying, 'I'm so sorry to bother you, but could you turn your music down\nplease?' and she says, 'Oh, I'm so sorry, it won't happen again.' But it always does.",
+        "Extract 3\nMan: What do you think you will do when you finish this training course?\nWoman: I'm flying to Mexico next week to learn Spanish and just enjoy life to the fullest for 12 months. After that, I don't\nknow what I'll do.\nMan: So, why Mexico?\nWoman: Well, I've got family there and the weather is good all year round. Besides, I don't have any other plan at the\nmoment.",
+        "Extract 4\nWoman: Did you get that job you applied for the other week?\nMan: I'm still waiting to hear, but I don't think I did. I think they'll choose the other candidate who was waiting for the\ninterview while I was. She seemed to have a lot more experience than me. I've applied for another job nearer to my home,\nso I won't have to get a bus or train. I should find out soon.\nWoman: Oh, well good luck with that one then.",
+        "Extract 5\nWoman: By the end of next month I hope, but I'm going to have to relocate first. Looking for accommodation in a new city\nisn't easy, especially as I don't know it. I'm sure I'll find somewhere in a good area, but it just takes time, doesn't it?\nMan: Yes, but it'll be worth it in the end."
+      ],
+      "answers": [
+        "E",
+        "F",
+        "B",
+        "G",
+        ["C", "A"]
+      ]
+    },
+    {
+      "id": 24,
+      "type": "select_correct_word",
+      "audioscript": "Presenter: Welcome to today's show where we're asking our listeners to phone in and tell us about strange ways of\nmaking money. Caller 1 is on the line, hi, is that you, Carol, from Boston?\nCaller 1: Hi, yes, that's me, and one of the most unusual things I've heard about people making money was just the\nother week, here in Boston, somebody was dressed as Mr Strong – you know, the Mr Man character? Well,\nhe was standing by the fountain in the park, filling up water bottles and telling people to buy this water for a\ndollar if they want to be strong like him. I mean, it's the same water that comes into your house, and he\ncharged one dollar for that!\nPresenter: Is Mr Strong still doing this, Carol?\nCaller 1: I don't think so – as I say, it's just something I heard about from my neighbour.\nPresenter: Interesting! Thank you, Carol. Let's take Caller 2. Is this Martin from Philadelphia?\nCaller 2: Hiya, I'm Martin. I just want to say, I love your show.\nPresenter: Oh, well thank you, Martin! So what can you tell us about an unusual thing someone has done to earn money?\nCaller 2: When I was on holiday last year, down in Florida, there were people on the beach offering to peel your fruit.\nFor money. Not sell it – you give them your fruit, and they just peel it. And it cost as much as the fruit itself!\nPresenter: What kind of fruit are you talking about, Martin?\nCaller 2: Well, any fruit. I saw them with pineapples, which, let's face it, aren't easy to peel. But there was someone\nthere offering to cut melons, and one little guy even offered to peel bananas! Crazy, I say!\nPresenter: Well, thank you for that Martin! Caller 3. I haven't got your name. Can you tell us your name and where you're\nfrom?\nCaller 3: Oh, hello! I'm Eileen and I'm from New York.\nPresenter: Hi Eileen. What's your story today?\nCaller 3: Well, it's actually about me. Is that OK? When I was in Canada, I used to work as an au pair, and every day I\nwould leave a note in the little kid's bag, just some words like, 'Do your best today and you will get good\ngrades!' or, 'Remember to be kind to people.' Well, the parents found out and told me to do it every day. The\nlittle boy – Robbie was his name – would come home and tell his mom and dad that he had done his best, or he\nwas kind, and they loved it. So when I left Canada, they asked me to keep sending notes to Robbie once a\nweek and they paid me! So that's what I did for about five years. I'd put one in the mail box every week. I\nearnt a fortune!",
+      "question": "Listen to three callers on a radio show discussing unusual ways of making money. Answer questions (1–5) with Caller 1, Caller 2 or Caller 3. An example (0) has been done for you.",
+      "example": "0. isn't sure if the activity is still happening now?",
+      "exampleAnswer": "Caller 1",
+      "sentences": [
+        "earnt the money themselves?",
+        "saw other people earning money in an unusual way?",
+        "heard about the story from another person?",
+        "talked about a person wearing different clothes?",
+        "impressed people with a service?"
+      ],
+      "options": [
+        ["Caller 1", "Caller 2", "Caller 3"],
+        ["Caller 1", "Caller 2", "Caller 3"],
+        ["Caller 1", "Caller 2", "Caller 3"],
+        ["Caller 1", "Caller 2", "Caller 3"],
+        ["Caller 1", "Caller 2", "Caller 3"]
+      ],
+      "correctAnswers": [2, 1, 0, 0, 2]
+    },
+    {
+      "id": 25,
+      "type": "fill_in_blank",
+      "audioscript": "Manager: Today, I'd like to tell you about our company and the changes we've made over the last few years to make our\nworking environment less wasteful, more efficient and more environmentally friendly. We are Melvin\nDesigners, and we design things like garden chairs, tables, benches, that kind of thing and we're based in\nValencia House, on High Road, just round the corner. I started the business in 2014 with a friend, then, little by\nlittle, we grew and then we moved to Valencia House in 2016. When we moved to Valencia House, which is in a\nmodern office building in the centre, we realised the running costs were a lot more expensive than our older\noffice outside the city and we just had to cut down on our costs.\nWhen we looked more closely at where we could save money, we realised we didn't need to print every single\nemail that came through. So, in February 2017, we made a plan to use less paper. Surprisingly, we managed to\ncut the amount of paper we were using by 50%. We've now decided to set a target of using just 30% of our\noriginal paper use.\nWe then quit the habit of buying coffee from a café in single-use cups, you know, the cups you can only use\nonce, and took our own cups instead. Avoiding single-use cups gave us a 10 % discount. 'Wow! Isn't this\ngreat,' said my partner, 'let's look at other things we can do.' So, he looked at what we threw away, things like\nprinter cartridges, packaging for materials we ordered, and tried to think of ways of recycling or reusing\nthem. He found a recycling company on the internet who would come and collect industrial cardboard,\nplastic, that kind of thing, and actually pay us for it!\nWe have a few more ideas, but I can't share them with you just yet I'm afraid! However, we do have things\nwhich we are going to introduce over the next month or so at Valencia House. Does anyone in the audience\ntoday compost? By composting, I mean throwing all their waste food in a box and then putting it in their\ngardens for their flowers and plants? Well, I must admit, this did seem a little strange to me at first, but a\nmember from the design team suggested it as a way to cut down on the amount of waste we throw in the bins,\nwhich is another way of reducing our costs. We estimate that our bins will be 10% lighter without food waste\nand we will be able to use the compost on the rose bushes at the front of our building.\nSo, if you want to cut down on.",
+      "question": "Listen to a presentation about a business that is making environmental changes and complete the notes. An example (0) has been done for you. Skills Test 4-5 Audio 4",
+      "example": "0. Name of company: ______.",
+      "exampleAnswer": "Melvin Designers",
+      "sentences": [
+        "1. Company started in ______.",
+        "2. Original office location: ______.",
+        "3. First decided to cut down on use of ______.",
+        "4. Also stopped using ______ at the café.",
+        "5. Bins 10% lighter without ______."
+      ],
+      "answers": [
+        "2014",
+        "outside the city",
+        "paper",
+        "single-use cups",
+        "food waste"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "fill_in_blank",
+      "content": "Digital nomads are people who travel around the world using telecommunications technology to allow them to earn a living.\n\nRemote Working – Good or Bad?\n'The world is my office', Jane proclaims with some pride. Jane is part of a digital revolution that has been changing the way we work and, more importantly, where we work. She is part of a group called digital nomads who are riding the tech wave into the future and in the process changing how many jobs can be done from anywhere in the world.\n\nThis seems to be old news as a company's office location generally doesn't dictate where the business is performed. What is different is that the digital nomad doesn't have an office – they have portable tools. 'You can do pretty much any job anywhere these days, although it's not a new thing', Jane continues to explain, 'with my mobile and laptop I can work anywhere at any time'. Her favourite place to work this month is by a beach not far from her rented beach house on the edge of the Indian Ocean.\n\nIt sounds like a perfect way to work, but what, if any, are the downsides? Firstly, there is the fact that a lot of the time you may end up working for a company that expects you to be available during office hours in their country. So, if you're working for an Australian company whilst living in Europe, the time difference will have a severe impact on your life. Secondly, it doesn't mean less work. Often you have to work a regular nine-to-five schedule, but as with any job you may need to put in some extra hours to get everything done.\n\nAs Jane explains, 'I often work very long hours that are no different from what I used to do before I left the traditional office. Being a nomad just means that I can choose where I work, not how much or when, and this is a mistake I see a lot of new nomads making'. Jane went on to tell me that last year she nearly gave it all up because she was working from a village in Portugal and realised that she hadn't actually had time to see any part of the country except where she had set up a base. 'Realising where I went wrong last year was a big step for me. I have now revisited what I wanted from my life and decided that I needed to do less so I could get more from where I was living at the time'.",
+      "question": "Read the text about digital nomads and complete the sentences (1–5). An example (0) has been done for you.",
+      "example": "0. Digital nomads use computers and Wi-Fi to ______.",
+      "exampleAnswer": "earn a living",
+      "sentences": [
+        "1. Digital nomads are part of a change that means people can work from ______.",
+        "2. The idea of working in a different location to your office is ______.",
+        "3. The hours you work may have to fit in with the location of ______.",
+        "4. New nomads have to decide when and ______ work they need to do.",
+        "5. Nomads should review their work schedules to check they are doing the amount of work ______."
+      ],
+      "answers": [
+        ["anywhere", "in the world"],
+        "not new",
+        "the company",
+        "how much",
+        "they want to"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "fill_in_blank",
+      "content": "Recent surveys have picked up on the reasons why customers use cafés and, oddly, drinking coffee came quite low on the list.\nRead comments from four regular café goers to see what they think.\n\nI'm really surprised by this survey. I'm not sure I have ever really been to a café for any reason other than a warm\ndrink. I don't always have a coffee, but I think there are other places I'd rather work. For me, I don't understand how\npeople can work in such a noisy environment, although sometimes I do wish I had the opportunity not to be in the\noffice all the time.\nFred\n\nUntil about a year ago, I had never been in a café. I always thought they were a waste of money and I knew that I could\nmake a better coffee myself, and with more care, than someone else in a shop. All that has changed since I moved\naway to go to college though. I generally go to cafés to meet up with mates, and we chat and plan what we're going to\ndo. It's definitely a place I go to socialise rather than anything else.\nSerena\n\nWhen I was a kid, I used to always meet my friends at a café on my way home from school. We used to think we were\nall very adult and would have coffees and teas – using up our pocket money in no time at all. I learnt a lot about the\nvalue of money and how easy it is to spend when it is so difficult to make. Nowadays, I still frequent a few cafés in my\narea, but I rarely spend more than a couple of euros and spend hours catching up with people.\nJune\n\nI've never really been into the café culture, probably because the area I lived in as a kid had nothing like that around.\nWhen I started to work for myself, I used to spend all day in a café on the corner of the road I lived on. After the first\nyear, I realised that perhaps I would be more productive if I worked somewhere else because in the end so many\nregulars knew me and I ended up chatting with them more than working. These days, I tend to work from home, but I\nalways pop down to the corner for a catch up with my neighbours.\nNick",
+      "question": "Read four people's opinions about going to cafés. Match each of the opinions (1–5) to the person who says it. An example (0) has been done for you.",
+      "example": "0. Who was shocked by what they read? ______",
+      "exampleAnswer": "Fred",
+      "sentences": [
+        "1. Who takes their time with their coffee and friends? ______",
+        "2. Who used to use a café as an office? ______",
+        "3. Who thought being in a café made them older than they were? ______",
+        "4. Who thinks cafés are too loud to work in? ______",
+        "5. Who changed their mind about cafés when they left home? ______"
+      ],
+      "answers": [
+        "June",
+        "Nick",
+        "June",
+        "Fred",
+        "Serena"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "fill_in_blank",
+      "content": "Football Fans\nThe world's most popular sport according to the number of fans around the world is, unsurprisingly, the beautiful game – football. More than four billion people around the world make the claim that (0) they are fans of at least one team. Although far fewer people are fans of other sports, it seems that there is nobody on the planet who isn't a fan of at least one.\n\nWhy are people so eager to support a team when it is often based far from where they live, and they have never travelled to see where (1) it is based? Sports psychologists have studied the question in detail and have reached a few conclusions. Interestingly, it seems that one of the reasons why games like football are so popular is social connectedness. The supporters feel they have a connection to the team, club and quite possibly that (2) they know all the other fans. This means, for example, that there would be a natural connection between two people wearing the same football shirt, which transcends race, religion, gender and social status. What surprises most is the closeness that (3) this feeling brings.\n\nWhy is the pull so strong? If we were to take a closer look you would see that clubs have developed huge marketing campaigns – the most popular football club in the world came from a small town in the north of England and has supporters numbering in the millions all around the world. Most of the fans have never been to the UK nor seen many of the matches on the television. (4) They have nothing to do with the city, apart from the love of the team.\n\nThe overriding feeling amongst most fans is that (5) their success is my success. Popular teams are invariably ones that spend a lot of time winning. The rise in the fan base for a team that is winning is usually driven by the sentiment of the fans. This means that the fans tie the team's success to their own. They react in the same way as if it were personal success or failure depending on if the team win or lose. If the team goes through a long losing streak, then, generally, individual players will be homed in on as the 'representative' of oneself.",
+      "question": "Read the text about being a fan. Identify what the words in bold (1–5) refer to in the text. An example (0) has been done for you.",
+      "example": "0. they ______",
+      "exampleAnswer": "fans",
+      "sentences": [
+        "1. it ______",
+        "2. they ______",
+        "3. this feeling ______",
+        "4. They ______",
+        "5. their ______"
+      ],
+      "answers": [
+        "the team",
+        "fans",
+        "natural connection",
+        "fans",
+        "team"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "fill_in_blank",
+      "content": "How To Keep a Garden in 5 Easy Steps\nKeeping a garden can be a fantastic way of brightening up your life – here are some tips.\n\nFinding the right plants: If you live in a cool, shady place then perhaps sun-loving plants are not for you. There are many ways of researching which plants you should buy, but to my mind (0) perusing the area you live in to see what other people are growing or what grows naturally is a good idea.\n\nGetting the right soil: Just like with people, plants like a nice bed. The type of soil you choose will help or (1) hinder your plants. Considering the amount of different types of soil available, I would suggest going to your local (2) nursery and finding out from a member of staff what will work best for the plants you intend to buy or, better yet, you can ask when you by them. They will know because they grow young plants for sale in top condition.\n\nWeeding and cleaning: This is a job that many people hate, but is an integral part of gardening. Keeping back the weeds helps your plants get more of the nutrients they need for growth and cleaning the soil around them helps keep it dry so no mould appears that can (3) irreparably damage the roots and you'll have to start again, which is both sad and time consuming.\n\nFeeding: Just like you, your plants will want a variety of food at different times in their life cycle. Many plants will survive in a good soil only, but if you have fruit, vegetables or flowers you will want to supplement the soil to get the maximum (4) yield from your crop. To my mind it is always better to get as much as you can from your plants; the feeling of success when you have a large crop is great.\n\nWatering: Different plants need different amounts of (5) moisture. This is an absolute fact and what is dry for some is wet for others so be careful not to mix up how much and how often you should be watering. Also, if you live in certain parts of the country the acidity of the water changes so it might be best to check this because it will have a big impact on how the roots can grow.",
+      "question": "Read the text about gardening. Identify what the words in bold (1–5) mean according to the text. An example (0) has been done for you.",
+      "example": "0. perusing ______",
+      "exampleAnswer": "looking around",
+      "sentences": [
+        "1. hinder ______",
+        "2. nursery ______",
+        "3. irreparably ______",
+        "4. yield ______",
+        "5. moisture ______"
+      ],
+      "answers": [
+        "harm",
+        "plant shop",
+        "impossible to repair",
+        ["quantity","amount"],
+        "water"
+      ]
+    }
+  ]
+} 
+
