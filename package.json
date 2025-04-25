@@ -2,7 +2,7 @@
   "name": "english-quiz-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://umutYLCN.github.io/B1Plus_English_Quiz_WebSite",
+  "homepage": "https://umutYLCN.github.io/B1Plus_English_Quiz_WebSite/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -m \"Deploy: GitHub Pages [skip ci]\""
   },
   "dependencies": {
     "@chakra-ui/hooks": "^2.4.2",

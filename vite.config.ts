@@ -7,5 +7,7 @@ export default defineConfig({
   base: '/B1Plus_English_Quiz_WebSite/',
   build: {
     outDir: 'dist',
+    assetsDir: 'assets',
+    minify: true,
   }
 })
