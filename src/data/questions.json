@@ -1,7 +1,7 @@
 {
   "quizTitle": "English Practice Test",
   "description": "This test contains practice questions for English language proficiency.",
-  "totalQuestions": 31,
+  "totalQuestions": 29,
   "timeLimit": 30,
   "questions": [
     {
@@ -569,11 +569,11 @@
       "example": "Example: Extract 0 [____]",
       "exampleAnswer": "D",
       "sentences": [
-        "Extract 1 [____]",
-        "Extract 2 [____]",
-        "Extract 3 [____]",
-        "Extract 4 [____]",
-        "Extract 5 [____] and [____]"
+        "Extract 1 [ ____ ]",
+        "Extract 2 [ ____ ]",
+        "Extract 3 [ ____ ]",
+        "Extract 4 [ ____ ]",
+        "Extract 5 [ ____ ] and [ A ]"
       ],
       "options": [
         "A is planning to move soon.",
@@ -596,7 +596,7 @@
         "F",
         "B",
         "G",
-        ["C", "A"]
+        "C"
       ]
     },
     {
