@@ -923,34 +923,70 @@ function App() {
         
         <Stack gap={4}>
           {question.sentences.map((sentence: string, idx: number) => {
-            const parts = sentence.split('______');
-            
-            return (
-              <Box key={idx} p={4} borderWidth="1px" borderRadius="md" borderColor="gray.200">
-                <Flex align="center">
-                  <Text mr={2}>{idx + 1}.</Text>
-                  <Text>{parts[0]}</Text>
-                  <Input
-                    value={wordBoxAnswers[idx] || ''}
-                    onChange={(e) => handleWordBoxAnswer(idx, e.target.value)}
-                    placeholder="Enter word"
-                    width="150px"
-                    borderColor={
-                      wordBoxAnswers[idx] 
-                        ? wordBoxScores[idx] ? "green.300" : "red.300" 
-                        : "gray.200"
-                    }
-                    _hover={{ 
-                      borderColor: wordBoxAnswers[idx] 
-                        ? (wordBoxScores[idx] ? "green.400" : "red.400") 
-                        : "gray.300" 
-                    }}
-                    mx={2}
-                  />
-                  <Text>{parts[1]}</Text>
-                </Flex>
-              </Box>
-            );
+            // Özel işleme: Soru 23 için köşeli parantezli input
+            if (question.id === 23) {
+              // [____] formatını bölerek parçalara ayır
+              const parts = sentence.split('[____]');
+              
+              return (
+                <Box key={idx} p={4} borderWidth="1px" borderRadius="md" borderColor="gray.200">
+                  <Flex align="center">
+                    <Text mr={2}>{idx + 1}.</Text>
+                    <Text>{parts[0]}</Text>
+                    <Text>[</Text>
+                    <Input
+                      value={wordBoxAnswers[idx] || ''}
+                      onChange={(e) => handleWordBoxAnswer(idx, e.target.value)}
+                      placeholder="Enter letter"
+                      width="80px"
+                      borderColor={
+                        wordBoxAnswers[idx] 
+                          ? wordBoxScores[idx] ? "green.300" : "red.300" 
+                          : "gray.200"
+                      }
+                      _hover={{ 
+                        borderColor: wordBoxAnswers[idx] 
+                          ? (wordBoxScores[idx] ? "green.400" : "red.400") 
+                          : "gray.300" 
+                      }}
+                      mx={1}
+                    />
+                    <Text>]</Text>
+                    <Text>{parts[1] || ''}</Text>
+                  </Flex>
+                </Box>
+              );
+            } else {
+              // Diğer sorular için normal ayrım
+              const parts = sentence.split('______');
+              
+              return (
+                <Box key={idx} p={4} borderWidth="1px" borderRadius="md" borderColor="gray.200">
+                  <Flex align="center">
+                    <Text mr={2}>{idx + 1}.</Text>
+                    <Text>{parts[0]}</Text>
+                    <Input
+                      value={wordBoxAnswers[idx] || ''}
+                      onChange={(e) => handleWordBoxAnswer(idx, e.target.value)}
+                      placeholder="Enter word"
+                      width="150px"
+                      borderColor={
+                        wordBoxAnswers[idx] 
+                          ? wordBoxScores[idx] ? "green.300" : "red.300" 
+                          : "gray.200"
+                      }
+                      _hover={{ 
+                        borderColor: wordBoxAnswers[idx] 
+                          ? (wordBoxScores[idx] ? "green.400" : "red.400") 
+                          : "gray.300" 
+                      }}
+                      mx={2}
+                    />
+                    <Text>{parts[1]}</Text>
+                  </Flex>
+                </Box>
+              );
+            }
           })}
         </Stack>
         
@@ -1024,35 +1060,68 @@ function App() {
         
         <Stack gap={4}>
           {question.sentences.map((sentence: string, idx: number) => {
-            // Split on blank marker in the text
-            const parts = sentence.split('_______');
-            
-            return (
-              <Box key={idx} p={4} borderWidth="1px" borderRadius="md" borderColor="gray.200">
-                <Flex align="center" flexWrap="wrap">
-                  <Text mr={2}>{idx + 1}.</Text>
-                  <Text>{parts[0]}</Text>
-                  <Input
-                    value={wordBoxAnswers[idx] || ''}
-                    onChange={(e) => handleFillInBlankAnswer(idx, e.target.value)}
-                    placeholder="Enter word"
-                    width="150px"
-                    borderColor={
-                      wordBoxAnswers[idx] 
-                        ? wordBoxScores[idx] ? "green.300" : "red.300" 
-                        : "gray.200"
-                    }
-                    _hover={{ 
-                      borderColor: wordBoxAnswers[idx] 
-                        ? (wordBoxScores[idx] ? "green.400" : "red.400") 
-                        : "gray.300" 
-                    }}
-                    mx={2}
-                  />
-                  <Text>{parts[1] || ''}</Text>
-                </Flex>
-              </Box>
-            );
+            // Sorular 25, 26, 27, 28, 29 için input kutusu kullanımı
+            if ([25, 26, 27, 28, 29].includes(question.id)) {
+              // ______ formatını bölerek input ekle 
+              const parts = sentence.split('______');
+              
+              return (
+                <Box key={idx} p={4} borderWidth="1px" borderRadius="md" borderColor="gray.200">
+                  <Flex align="center" flexWrap="wrap">
+                    <Text mr={2}>{idx + 1}.</Text>
+                    <Text>{parts[0]}</Text>
+                    <Input
+                      value={wordBoxAnswers[idx] || ''}
+                      onChange={(e) => handleFillInBlankAnswer(idx, e.target.value)}
+                      placeholder="Enter word"
+                      width="150px"
+                      borderColor={
+                        wordBoxAnswers[idx] 
+                          ? wordBoxScores[idx] ? "green.300" : "red.300" 
+                          : "gray.200"
+                      }
+                      _hover={{ 
+                        borderColor: wordBoxAnswers[idx] 
+                          ? (wordBoxScores[idx] ? "green.400" : "red.400") 
+                          : "gray.300" 
+                      }}
+                      mx={2}
+                    />
+                    <Text>{parts[1] || ''}</Text>
+                  </Flex>
+                </Box>
+              );
+            } else {
+              // Diğer sorular için normal işlem
+              const parts = sentence.split('_______');
+              
+              return (
+                <Box key={idx} p={4} borderWidth="1px" borderRadius="md" borderColor="gray.200">
+                  <Flex align="center" flexWrap="wrap">
+                    <Text mr={2}>{idx + 1}.</Text>
+                    <Text>{parts[0]}</Text>
+                    <Input
+                      value={wordBoxAnswers[idx] || ''}
+                      onChange={(e) => handleFillInBlankAnswer(idx, e.target.value)}
+                      placeholder="Enter word"
+                      width="150px"
+                      borderColor={
+                        wordBoxAnswers[idx] 
+                          ? wordBoxScores[idx] ? "green.300" : "red.300" 
+                          : "gray.200"
+                      }
+                      _hover={{ 
+                        borderColor: wordBoxAnswers[idx] 
+                          ? (wordBoxScores[idx] ? "green.400" : "red.400") 
+                          : "gray.300" 
+                      }}
+                      mx={2}
+                    />
+                    <Text>{parts[1] || ''}</Text>
+                  </Flex>
+                </Box>
+              );
+            }
           })}
         </Stack>
         
